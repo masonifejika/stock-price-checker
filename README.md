@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 See a working version in your browser here: [http://www.masonifejika.com/stock-price-checker/index.html](http://www.masonifejika.com/stock-price-checker/index.html)\
-Please see the "Wireframe.png" image in the root of the project directory to see the layout that inspired the web app.\
+Please see the "Wireframe.png" image in the root of the project directory to see the layout that inspired the web app.
 
-As this was a time-sensitive exercise, there are several tasks I would have carried out if I had more time, such as:\
+As this was a time-sensitive exercise, there are several tasks I would have carried out if I had more time, such as:
 * Writing unit tests
 * Developing a responsive mobile version of the app
 * Creating error handlers for the API timing out or failing to return data
