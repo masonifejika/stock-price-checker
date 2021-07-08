@@ -1,0 +1,33 @@
+@import '../sassStyles/variables';
+@import '../sassStyles/mixins';
+
+.chart-container {
+
+    @include wrapper;
+
+    height:                         600px;
+    margin-top:                     50px;
+    position:                       relative;
+
+    .recharts-legend-wrapper {
+
+        bottom:                     -45px !important;
+        font-weight:                bold;
+        font-size:                  13px;
+
+    }
+
+    .recharts-xAxis {
+
+        font-size:                  12px;
+
+    }
+
+    .recharts-yAxis {
+
+        font-size:                  14px;
+        font-weight:                bold;
+
+    }
+
+}

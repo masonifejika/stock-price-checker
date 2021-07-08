@@ -1,0 +1,34 @@
+@import 'variables';
+
+/* COMMON SHARED MIXINS */
+
+@mixin wrapper {
+
+    margin-left:                auto;
+    margin-right:               auto;
+    width:                      $wrapperWidth;
+
+}
+
+/* SIZING */
+
+@mixin fillContainer {
+
+    width:                      100%;
+    height:                     100%;
+
+}
+
+/* TEXT */
+
+@mixin  uppercase {
+
+    text-transform:             uppercase;
+
+}
+
+@mixin  lowercase {
+
+    text-transform:             lowercase;
+
+}

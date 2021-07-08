@@ -1,0 +1,48 @@
+@import '../sassStyles/variables';
+@import '../sassStyles/mixins';
+
+@mixin sharedFiltersStyle {
+
+    font-size:                      24px;
+    color:                          $schrodersBlue;
+    font-family:                    SchrodersCircularWeb;
+
+}
+
+#dateAndPriceFilters {
+
+    @include sharedFiltersStyle;
+
+    padding:                        30px 0;
+    background-color:               rgba(255, 255, 255, 0.4);
+    box-shadow:                     0 3px 15px rgba(0, 0, 0, 0.07);
+    
+
+    > div {
+
+        @include wrapper;
+
+        select, input {
+
+            @include sharedFiltersStyle;
+
+            background:             transparent;
+            outline:                none;
+            border:                 0;
+            margin:                 0 8px;
+
+        }
+
+        input {
+
+            width:                  205px;
+
+            &::-webkit-calendar-picker-indicator {
+                padding:            0;
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,29 @@
+@import '../sassStyles/variables';
+@import '../sassStyles/mixins';
+
+#root > div > header > button {
+
+    @include uppercase;
+
+    color:                          $white;
+    background-color:               $schrodersBlue;
+    border:                         1px solid $schrodersBlue;
+    border-radius:                  10px;
+    font-family:                    SchrodersCircularWeb;
+    font-size:                      14px;
+    letter-spacing:                 1.5px;
+    padding:                        15px 20px;
+    position:                       absolute;
+    right:                          25px;
+    top:                            25px;
+    cursor:                         pointer;
+    transition:                     all 0.3s;
+
+    &:hover, &:active, &:focus {
+
+        color:                      $schrodersBlue;
+        background-color:           $white;
+
+    }
+
+}
